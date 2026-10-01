@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ali") (type "KiCad") (uri "${KIPRJMOD}/library/ali.pretty") (options "") (descr ""))
+)
