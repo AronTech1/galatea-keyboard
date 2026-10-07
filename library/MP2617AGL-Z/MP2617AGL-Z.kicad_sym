@@ -1,0 +1,199 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator https://github.com/uPesy/easyeda2kicad.py)
+
+  (symbol "MP2617AGL-Z"
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 16.51 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Value"
+      "MP2617AGL-Z"
+      (id 1)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+    (property
+      "Footprint"
+      "MP2617AGL-Z:QFN-20_L4.0-W3.0-P0.50_MP2625BGL"
+      (id 2)
+      (at 0 -19.05 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C3682812.pdf"
+      (id 3)
+      (at 0 -21.59 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "Manufacturer"
+      "MPS(芯源)"
+      (id 4)
+      (at 0 -24.13 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "MPN"
+      "MP2617AGL-Z"
+      (id 5)
+      (at 0 -26.67 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "LCSC Part"
+      "C3682812"
+      (id 6)
+      (at 0 -29.21 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (property
+      "ki_keywords"
+      "Battery Management ICs"
+      (id 8)
+      (at 0 -31.75 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+    (symbol "MP2617AGL-Z_0_1"
+      (rectangle
+        (start -11.43 13.97)
+        (end 11.43 -13.97)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -10.16 12.70)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -13.97 11.43 0)
+        (length 2.54)
+        (name "BST" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 8.89 0)
+        (length 2.54)
+        (name "SW" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 6.35 0)
+        (length 2.54)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 3.81 0)
+        (length 2.54)
+        (name "SW" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 1.27 0)
+        (length 2.54)
+        (name "PGND" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 -1.27 0)
+        (length 2.54)
+        (name "~{EN}" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 -3.81 0)
+        (length 2.54)
+        (name "M0" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 -6.35 0)
+        (length 2.54)
+        (name "M1" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 -8.89 0)
+        (length 2.54)
+        (name "~{CHGOK}" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -13.97 -11.43 0)
+        (length 2.54)
+        (name "~{ACOK}" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 -11.43 180)
+        (length 2.54)
+        (name "AGND" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 -8.89 180)
+        (length 2.54)
+        (name "SYSFB" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 -6.35 180)
+        (length 2.54)
+        (name "SYS" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 -3.81 180)
+        (length 2.54)
+        (name "BATT" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 -1.27 180)
+        (length 2.54)
+        (name "ISET" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 1.27 180)
+        (length 2.54)
+        (name "NTC" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 3.81 180)
+        (length 2.54)
+        (name "ILIM" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 6.35 180)
+        (length 2.54)
+        (name "TMR" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 8.89 180)
+        (length 2.54)
+        (name "VLIM" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 13.97 11.43 180)
+        (length 2.54)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
