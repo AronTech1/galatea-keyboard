@@ -7975,6 +7975,18 @@
 		(uuid "a390728f-3ac1-4247-a3d3-e3423c778b13")
 	)
 	(rectangle
+		(start 143.256 247.65)
+		(end 197.104 271.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "edfab9b9-e5b3-4fab-9b01-12f3b96ec85e")
+	)
+	(rectangle
 		(start 215.138 132.08)
 		(end 284.734 242.316)
 		(stroke
@@ -7997,6 +8009,26 @@
 			(justify left bottom)
 		)
 		(uuid "1c2bd332-d1b5-41aa-b779-2e3718d44639")
+	)
+	(text "2.28A"
+		(exclude_from_sim no)
+		(at 175.514 269.494 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "24ae90fe-ef90-4732-b3b7-56d8966a37e0")
+	)
+	(text "I_SET = 1.15*(1800/R_SET)mA "
+		(exclude_from_sim no)
+		(at 168.148 232.156 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "2dde7af9-b349-4f3d-9164-44bd1940ec3a")
 	)
 	(text "ADC"
 		(exclude_from_sim no)
@@ -8021,6 +8053,46 @@
 			(justify left bottom)
 		)
 		(uuid "3b2445b3-63e1-4ef6-b2c5-e9085b54be8d")
+	)
+	(text "I_SET = 1971.42mA "
+		(exclude_from_sim no)
+		(at 168.148 237.236 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "44bc32d8-34bb-4e42-8241-08c1f3f4538b")
+	)
+	(text "I_IN_LIM = 1.14*(40000/R_LIM)mA "
+		(exclude_from_sim no)
+		(at 169.418 259.842 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "53b4f325-2044-4837-b1f0-ec55b07f3eec")
+	)
+	(text "I_SET = 1.15*(1800/1.05k)mA "
+		(exclude_from_sim no)
+		(at 167.894 234.95 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "821416e2-5a19-4f49-9f25-0d5265106ca4")
+	)
+	(text "I_IN_LIM = 2280mA "
+		(exclude_from_sim no)
+		(at 169.926 266.446 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "851663f4-29e1-4896-83c1-f9e0c06a719a")
 	)
 	(text "+VBATT = 4.2V\nVADC_MAX = 100k/(100k+200k)*4.2V = "
 		(exclude_from_sim no)
@@ -8047,6 +8119,16 @@
 			(justify left bottom)
 		)
 		(uuid "87c2675d-3ee2-4e6c-914a-48ab180161ab")
+	)
+	(text "I_IN_LIM = 1.14*(40000/20)mA "
+		(exclude_from_sim no)
+		(at 169.418 263.398 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "88bd10e4-3163-4599-9bab-553d880b4ce7")
 	)
 	(text "reverse polarity protection"
 		(exclude_from_sim no)
@@ -8083,6 +8165,19 @@
 			)
 		)
 		(uuid "d9878609-e5f1-4049-8bc8-dd74f9ffcaa3")
+	)
+	(text "Input Current Limit"
+		(exclude_from_sim no)
+		(at 165.862 255.016 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 204 102 0 1)
+			)
+		)
+		(uuid "f53c92a4-c27a-40ac-adf0-cadaf785ae94")
 	)
 	(junction
 		(at 152.4 58.42)
@@ -8882,7 +8977,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 179.07) (xy 148.59 179.07)
+			(xy 138.43 179.07) (xy 147.32 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8892,7 +8987,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 179.07) (xy 153.67 179.07)
+			(xy 154.94 179.07) (xy 152.4 179.07)
 		)
 		(stroke
 			(width 0)
@@ -23113,7 +23208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 151.13 179.07 90)
+		(at 149.86 179.07 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23124,7 +23219,7 @@
 		(dnp no)
 		(uuid "c102fbd6-4679-4537-bb1d-47394b52909f")
 		(property "Reference" "R7"
-			(at 150.114 180.848 90)
+			(at 148.844 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23133,8 +23228,8 @@
 				)
 			)
 		)
-		(property "Value" "30.9k"
-			(at 153.416 180.848 90)
+		(property "Value" "20k"
+			(at 152.146 180.848 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23144,7 +23239,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.13 179.07 0)
+			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23155,7 +23250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 179.07 0)
+			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23166,7 +23261,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 151.13 179.07 0)
+			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23177,7 +23272,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23188,7 +23283,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23199,7 +23294,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23210,7 +23305,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23221,7 +23316,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23232,7 +23327,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23243,7 +23338,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23254,7 +23349,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23265,7 +23360,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23276,7 +23371,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23287,7 +23382,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23298,7 +23393,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 151.13 179.07 90)
+			(at 149.86 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
